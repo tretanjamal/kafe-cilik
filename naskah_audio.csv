@@ -1,0 +1,295 @@
+﻿id,pembicara,bahasa,teks,teks_ucap,konteks
+hook_pesan,sinta,en-US,"Hello! I'd like a pancake, please.","Hello! I'd like a pancake, please.",Hook: Bu Sinta memesan
+hook_ulang,sinta,en-US,"A pancake, please.","A pancake, please.",Hook: murid mengetuk menu lain
+hook_terima,sinta,en-US,Thank you!,Thank you!,Hook: panekuk diterima
+l1_puji1,lala,en-US,Great!,Great!,Level 1: jawaban benar
+l1_puji2,lala,en-US,Well done!,Well done!,Level 1: jawaban benar
+l1_puji3,lala,en-US,Very good!,Very good!,Level 1: jawaban benar
+l1_puji4,lala,en-US,"Yes, that is right!","Yes, that is right!",Level 1: jawaban benar
+l1_ini_panekuk,lala,en-US,This is a pancake.,This is a pancake.,Level 1 Kenalan dan Buku Menu: memperkenalkan pancake
+l1_cari_panekuk,lala,en-US,Where is the pancake?,Where is the pancake?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_panekuk,lala,en-US,That is a pancake.,That is a pancake.,Level 1: nama menu yang salah diketuk
+l1_kata_panekuk,lala,en-US,Pancake.,Pancake.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_panekuk_p1,lala,en-US,This is,This is,"Level 1 (Lebih pelan, potongan 1)"
+l1_ini_panekuk_p2,lala,en-US,a pancake.,a pancake.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_panekuk_p1,lala,en-US,Where is,Where is,"Level 1 (Lebih pelan, potongan 1)"
+l1_cari_panekuk_p2,lala,en-US,the pancake?,the pancake?,"Level 1 (Lebih pelan, potongan 2)"
+l1_itu_panekuk_p1,lala,en-US,That is,That is,"Level 1 (Lebih pelan, potongan 1)"
+l1_ini_burger,lala,en-US,This is a burger.,This is a burger.,Level 1 Kenalan dan Buku Menu: memperkenalkan burger
+l1_cari_burger,lala,en-US,Where is the burger?,Where is the burger?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_burger,lala,en-US,That is a burger.,That is a burger.,Level 1: nama menu yang salah diketuk
+l1_kata_burger,lala,en-US,Burger.,Burger.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_burger_p2,lala,en-US,a burger.,a burger.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_burger_p2,lala,en-US,the burger?,the burger?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_roti,lala,en-US,This is an egg sandwich.,This is an egg sandwich.,Level 1 Kenalan dan Buku Menu: memperkenalkan egg sandwich
+l1_cari_roti,lala,en-US,Where is the egg sandwich?,Where is the egg sandwich?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_roti,lala,en-US,That is an egg sandwich.,That is an egg sandwich.,Level 1: nama menu yang salah diketuk
+l1_kata_roti,lala,en-US,Egg sandwich.,Egg sandwich.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_roti_p2,lala,en-US,an egg sandwich.,an egg sandwich.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_roti_p2,lala,en-US,the egg sandwich?,the egg sandwich?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_eskrim,lala,en-US,This is ice cream.,This is ice cream.,Level 1 Kenalan dan Buku Menu: memperkenalkan ice cream
+l1_cari_eskrim,lala,en-US,Where is the ice cream?,Where is the ice cream?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_eskrim,lala,en-US,That is ice cream.,That is ice cream.,Level 1: nama menu yang salah diketuk
+l1_kata_eskrim,lala,en-US,Ice cream.,Ice cream.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_eskrim_p2,lala,en-US,ice cream.,ice cream.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_eskrim_p2,lala,en-US,the ice cream?,the ice cream?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_nasgor,lala,en-US,This is fried rice.,This is fried rice.,Level 1 Kenalan dan Buku Menu: memperkenalkan fried rice
+l1_cari_nasgor,lala,en-US,Where is the fried rice?,Where is the fried rice?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_nasgor,lala,en-US,That is fried rice.,That is fried rice.,Level 1: nama menu yang salah diketuk
+l1_kata_nasgor,lala,en-US,Fried rice.,Fried rice.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_nasgor_p2,lala,en-US,fried rice.,fried rice.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_nasgor_p2,lala,en-US,the fried rice?,the fried rice?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_sate,lala,en-US,This is chicken satay.,This is chicken satay.,Level 1 Kenalan dan Buku Menu: memperkenalkan chicken satay
+l1_cari_sate,lala,en-US,Where is the chicken satay?,Where is the chicken satay?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_sate,lala,en-US,That is chicken satay.,That is chicken satay.,Level 1: nama menu yang salah diketuk
+l1_kata_sate,lala,en-US,Chicken satay.,Chicken satay.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_sate_p2,lala,en-US,chicken satay.,chicken satay.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_sate_p2,lala,en-US,the chicken satay?,the chicken satay?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_bakso,lala,en-US,This is meatball soup.,This is meatball soup.,Level 1 Kenalan dan Buku Menu: memperkenalkan meatball soup
+l1_cari_bakso,lala,en-US,Where is the meatball soup?,Where is the meatball soup?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_bakso,lala,en-US,That is meatball soup.,That is meatball soup.,Level 1: nama menu yang salah diketuk
+l1_kata_bakso,lala,en-US,Meatball soup.,Meatball soup.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_bakso_p2,lala,en-US,meatball soup.,meatball soup.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_bakso_p2,lala,en-US,the meatball soup?,the meatball soup?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_pisgor,lala,en-US,These are banana fritters.,These are banana fritters.,Level 1 Kenalan dan Buku Menu: memperkenalkan banana fritters
+l1_cari_pisgor,lala,en-US,Where are the banana fritters?,Where are the banana fritters?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_pisgor,lala,en-US,Those are banana fritters.,Those are banana fritters.,Level 1: nama menu yang salah diketuk
+l1_kata_pisgor,lala,en-US,Banana fritters.,Banana fritters.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_pisgor_p1,lala,en-US,These are,These are,"Level 1 (Lebih pelan, potongan 1)"
+l1_ini_pisgor_p2,lala,en-US,banana fritters.,banana fritters.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_pisgor_p1,lala,en-US,Where are,Where are,"Level 1 (Lebih pelan, potongan 1)"
+l1_cari_pisgor_p2,lala,en-US,the banana fritters?,the banana fritters?,"Level 1 (Lebih pelan, potongan 2)"
+l1_itu_pisgor_p1,lala,en-US,Those are,Those are,"Level 1 (Lebih pelan, potongan 1)"
+l1_ini_teh,lala,en-US,This is tea.,This is tea.,Level 1 Kenalan dan Buku Menu: memperkenalkan tea
+l1_cari_teh,lala,en-US,Where is the tea?,Where is the tea?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_teh,lala,en-US,That is tea.,That is tea.,Level 1: nama menu yang salah diketuk
+l1_kata_teh,lala,en-US,Tea.,Tea.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_teh_p2,lala,en-US,tea.,tea.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_teh_p2,lala,en-US,the tea?,the tea?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_susu,lala,en-US,This is milk.,This is milk.,Level 1 Kenalan dan Buku Menu: memperkenalkan milk
+l1_cari_susu,lala,en-US,Where is the milk?,Where is the milk?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_susu,lala,en-US,That is milk.,That is milk.,Level 1: nama menu yang salah diketuk
+l1_kata_susu,lala,en-US,Milk.,Milk.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_susu_p2,lala,en-US,milk.,milk.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_susu_p2,lala,en-US,the milk?,the milk?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_jeruk,lala,en-US,This is orange juice.,This is orange juice.,Level 1 Kenalan dan Buku Menu: memperkenalkan orange juice
+l1_cari_jeruk,lala,en-US,Where is the orange juice?,Where is the orange juice?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_jeruk,lala,en-US,That is orange juice.,That is orange juice.,Level 1: nama menu yang salah diketuk
+l1_kata_jeruk,lala,en-US,Orange juice.,Orange juice.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_jeruk_p2,lala,en-US,orange juice.,orange juice.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_jeruk_p2,lala,en-US,the orange juice?,the orange juice?,"Level 1 (Lebih pelan, potongan 2)"
+l1_ini_air,lala,en-US,This is water.,This is water.,Level 1 Kenalan dan Buku Menu: memperkenalkan water
+l1_cari_air,lala,en-US,Where is the water?,Where is the water?,Level 1 Dengar dan ketuk: pertanyaan
+l1_itu_air,lala,en-US,That is water.,That is water.,Level 1: nama menu yang salah diketuk
+l1_kata_air,lala,en-US,Water.,Water.,Level 1 Cocokkan: kartu kata dipegang
+l1_ini_air_p2,lala,en-US,water.,water.,"Level 1 (Lebih pelan, potongan 2)"
+l1_cari_air_p2,lala,en-US,the water?,the water?,"Level 1 (Lebih pelan, potongan 2)"
+pel_salam1,pelanggan,en-US,Good morning.,Good morning.,L2: pelanggan datang
+pel_salam2,pelanggan,en-US,Hello!,Hello!,L2: pelanggan datang
+pel_ya,pelanggan,en-US,"Yes, please.","Yes, please.",L2: membenarkan pesanan yang diulang
+pel_berapa,pelanggan,en-US,How much is it?,How much is it?,L3: bertanya harga
+pel_bayar,pelanggan,en-US,Here you are.,Here you are.,L4: membayar
+pel_terima,pelanggan,en-US,Thank you!,Thank you!,L2-L4: penutup
+pel_jumlah1,pelanggan,en-US,"One, please.","One, please.",L2: menjawab How many
+pel_jumlah2,pelanggan,en-US,"Two, please.","Two, please.",L2: menjawab How many
+pel_jumlah3,pelanggan,en-US,"Three, please.","Three, please.",L2: menjawab How many
+pel_some_panekuk,pelanggan,en-US,"I'd like some pancakes, please.","I'd like some pancakes, please.",L2 T3: pesanan dengan some
+kas_banyak_panekuk,kasir,en-US,How many pancakes?,How many pancakes?,L2 T3: kartu How many
+pel_some_burger,pelanggan,en-US,"I'd like some burgers, please.","I'd like some burgers, please.",L2 T3: pesanan dengan some
+kas_banyak_burger,kasir,en-US,How many burgers?,How many burgers?,L2 T3: kartu How many
+pel_some_roti,pelanggan,en-US,"I'd like some egg sandwiches, please.","I'd like some egg sandwiches, please.",L2 T3: pesanan dengan some
+kas_banyak_roti,kasir,en-US,How many egg sandwiches?,How many egg sandwiches?,L2 T3: kartu How many
+pel_tidak_panekuk,pelanggan,en-US,I didn't order a pancake.,I didn't order a pancake.,L2: item berlebih di nampan
+pel_tidak_burger,pelanggan,en-US,I didn't order a burger.,I didn't order a burger.,L2: item berlebih di nampan
+pel_tidak_roti,pelanggan,en-US,I didn't order an egg sandwich.,I didn't order an egg sandwich.,L2: item berlebih di nampan
+pel_tidak_eskrim,pelanggan,en-US,I didn't order ice cream.,I didn't order ice cream.,L2: item berlebih di nampan
+pel_tidak_nasgor,pelanggan,en-US,I didn't order fried rice.,I didn't order fried rice.,L2: item berlebih di nampan
+pel_tidak_sate,pelanggan,en-US,I didn't order chicken satay.,I didn't order chicken satay.,L2: item berlebih di nampan
+pel_tidak_bakso,pelanggan,en-US,I didn't order meatball soup.,I didn't order meatball soup.,L2: item berlebih di nampan
+pel_tidak_pisgor,pelanggan,en-US,I didn't order banana fritters.,I didn't order banana fritters.,L2: item berlebih di nampan
+pel_tidak_teh,pelanggan,en-US,I didn't order tea.,I didn't order tea.,L2: item berlebih di nampan
+pel_tidak_susu,pelanggan,en-US,I didn't order milk.,I didn't order milk.,L2: item berlebih di nampan
+pel_tidak_jeruk,pelanggan,en-US,I didn't order orange juice.,I didn't order orange juice.,L2: item berlebih di nampan
+pel_tidak_air,pelanggan,en-US,I didn't order water.,I didn't order water.,L2: item berlebih di nampan
+kas_sapa,kasir,en-US,Hello! What would you like?,Hello! What would you like?,Kartu kalimat kasir
+kas_lagi,kasir,en-US,Anything else?,Anything else?,Kartu kalimat kasir
+kas_saji,kasir,en-US,Here you are.,Here you are.,Kartu kalimat kasir
+kas_tanyaHarga,kasir,en-US,How much is it?,How much is it?,Kartu kalimat kasir
+kas_kembali,kasir,en-US,Here's your change.,Here's your change.,Kartu kalimat kasir
+kas_pamit,kasir,en-US,Thank you. Have a nice day!,Thank you. Have a nice day!,Kartu kalimat kasir
+tpl_pesan1,pelanggan,en-US,"I'd like {pesanan}, please.","I'd like {pesanan}, please.",templat: pesanan pelanggan
+tpl_pesan2,pelanggan,en-US,"Can I have {pesanan}, please?","Can I have {pesanan}, please?",templat: pesanan pelanggan
+tpl_pesan3,pelanggan,en-US,"{Pesanan}, please.","{Pesanan}, please.",templat: pesanan pelanggan
+tpl_tambah,pelanggan,en-US,"Yes, {pesanan}, please.","Yes, {pesanan}, please.",templat: bagian kedua pesanan (L2 T4)
+tpl_ulang,kasir,en-US,{Pesanan}?,{Pesanan}?,templat: kartu ulangi pesanan (L2)
+tpl_total1,kasir,en-US,It's {harga}.,It's {harga}.,templat: kartu menyebut total (L3)
+tpl_total2,kasir,en-US,"That's {harga}, please.","That's {harga}, please.",templat: kartu menyebut total (L3)
+tpl_harga_panekuk,lala,en-US,The pancake is {harga}.,The pancake is {harga}.,templat: Tulis Harga (L3)
+frasa_panekuk_1,pelanggan,en-US,a pancake,a pancake,potongan frasa item untuk {pesanan}
+frasa_panekuk_2,pelanggan,en-US,two pancakes,two pancakes,potongan frasa item untuk {pesanan}
+frasa_panekuk_3,pelanggan,en-US,three pancakes,three pancakes,potongan frasa item untuk {pesanan}
+tpl_harga_burger,lala,en-US,The burger is {harga}.,The burger is {harga}.,templat: Tulis Harga (L3)
+frasa_burger_1,pelanggan,en-US,a burger,a burger,potongan frasa item untuk {pesanan}
+frasa_burger_2,pelanggan,en-US,two burgers,two burgers,potongan frasa item untuk {pesanan}
+frasa_burger_3,pelanggan,en-US,three burgers,three burgers,potongan frasa item untuk {pesanan}
+tpl_harga_roti,lala,en-US,The egg sandwich is {harga}.,The egg sandwich is {harga}.,templat: Tulis Harga (L3)
+frasa_roti_1,pelanggan,en-US,an egg sandwich,an egg sandwich,potongan frasa item untuk {pesanan}
+frasa_roti_2,pelanggan,en-US,two egg sandwiches,two egg sandwiches,potongan frasa item untuk {pesanan}
+frasa_roti_3,pelanggan,en-US,three egg sandwiches,three egg sandwiches,potongan frasa item untuk {pesanan}
+tpl_harga_eskrim,lala,en-US,The ice cream is {harga}.,The ice cream is {harga}.,templat: Tulis Harga (L3)
+frasa_eskrim_1,pelanggan,en-US,a cup of ice cream,a cup of ice cream,potongan frasa item untuk {pesanan}
+frasa_eskrim_2,pelanggan,en-US,two cups of ice cream,two cups of ice cream,potongan frasa item untuk {pesanan}
+frasa_eskrim_3,pelanggan,en-US,three cups of ice cream,three cups of ice cream,potongan frasa item untuk {pesanan}
+tpl_harga_nasgor,lala,en-US,The fried rice is {harga}.,The fried rice is {harga}.,templat: Tulis Harga (L3)
+frasa_nasgor_1,pelanggan,en-US,a plate of fried rice,a plate of fried rice,potongan frasa item untuk {pesanan}
+frasa_nasgor_2,pelanggan,en-US,two plates of fried rice,two plates of fried rice,potongan frasa item untuk {pesanan}
+frasa_nasgor_3,pelanggan,en-US,three plates of fried rice,three plates of fried rice,potongan frasa item untuk {pesanan}
+tpl_harga_sate,lala,en-US,The chicken satay is {harga}.,The chicken satay is {harga}.,templat: Tulis Harga (L3)
+frasa_sate_1,pelanggan,en-US,a plate of chicken satay,a plate of chicken satay,potongan frasa item untuk {pesanan}
+frasa_sate_2,pelanggan,en-US,two plates of chicken satay,two plates of chicken satay,potongan frasa item untuk {pesanan}
+frasa_sate_3,pelanggan,en-US,three plates of chicken satay,three plates of chicken satay,potongan frasa item untuk {pesanan}
+tpl_harga_bakso,lala,en-US,The meatball soup is {harga}.,The meatball soup is {harga}.,templat: Tulis Harga (L3)
+frasa_bakso_1,pelanggan,en-US,a bowl of meatball soup,a bowl of meatball soup,potongan frasa item untuk {pesanan}
+frasa_bakso_2,pelanggan,en-US,two bowls of meatball soup,two bowls of meatball soup,potongan frasa item untuk {pesanan}
+frasa_bakso_3,pelanggan,en-US,three bowls of meatball soup,three bowls of meatball soup,potongan frasa item untuk {pesanan}
+tpl_harga_pisgor,lala,en-US,The banana fritters are {harga}.,The banana fritters are {harga}.,templat: Tulis Harga (L3)
+frasa_pisgor_1,pelanggan,en-US,a plate of banana fritters,a plate of banana fritters,potongan frasa item untuk {pesanan}
+frasa_pisgor_2,pelanggan,en-US,two plates of banana fritters,two plates of banana fritters,potongan frasa item untuk {pesanan}
+frasa_pisgor_3,pelanggan,en-US,three plates of banana fritters,three plates of banana fritters,potongan frasa item untuk {pesanan}
+tpl_harga_teh,lala,en-US,The tea is {harga}.,The tea is {harga}.,templat: Tulis Harga (L3)
+frasa_teh_1,pelanggan,en-US,a cup of tea,a cup of tea,potongan frasa item untuk {pesanan}
+frasa_teh_2,pelanggan,en-US,two cups of tea,two cups of tea,potongan frasa item untuk {pesanan}
+frasa_teh_3,pelanggan,en-US,three cups of tea,three cups of tea,potongan frasa item untuk {pesanan}
+tpl_harga_susu,lala,en-US,The milk is {harga}.,The milk is {harga}.,templat: Tulis Harga (L3)
+frasa_susu_1,pelanggan,en-US,a glass of milk,a glass of milk,potongan frasa item untuk {pesanan}
+frasa_susu_2,pelanggan,en-US,two glasses of milk,two glasses of milk,potongan frasa item untuk {pesanan}
+frasa_susu_3,pelanggan,en-US,three glasses of milk,three glasses of milk,potongan frasa item untuk {pesanan}
+tpl_harga_jeruk,lala,en-US,The orange juice is {harga}.,The orange juice is {harga}.,templat: Tulis Harga (L3)
+frasa_jeruk_1,pelanggan,en-US,a glass of orange juice,a glass of orange juice,potongan frasa item untuk {pesanan}
+frasa_jeruk_2,pelanggan,en-US,two glasses of orange juice,two glasses of orange juice,potongan frasa item untuk {pesanan}
+frasa_jeruk_3,pelanggan,en-US,three glasses of orange juice,three glasses of orange juice,potongan frasa item untuk {pesanan}
+tpl_harga_air,lala,en-US,The water is {harga}.,The water is {harga}.,templat: Tulis Harga (L3)
+frasa_air_1,pelanggan,en-US,a bottle of water,a bottle of water,potongan frasa item untuk {pesanan}
+frasa_air_2,pelanggan,en-US,two bottles of water,two bottles of water,potongan frasa item untuk {pesanan}
+frasa_air_3,pelanggan,en-US,three bottles of water,three bottles of water,potongan frasa item untuk {pesanan}
+buku_ungkapan1,lala,en-US,Hello! What would you like?,Hello! What would you like?,Buku Menu: Ungkapan (Halo! Mau pesan apa?)
+buku_ungkapan2,lala,en-US,"I'd like a pancake, please.","I'd like a pancake, please.",Buku Menu: Ungkapan (Saya mau satu panekuk.)
+buku_ungkapan3,lala,en-US,"Can I have a cup of tea, please?","Can I have a cup of tea, please?",Buku Menu: Ungkapan (Boleh saya minta secangkir teh?)
+buku_ungkapan4,lala,en-US,Anything else?,Anything else?,Buku Menu: Ungkapan (Ada lagi?)
+buku_ungkapan5,lala,en-US,How many pancakes?,How many pancakes?,Buku Menu: Ungkapan (Mau berapa panekuk?)
+buku_ungkapan6,lala,en-US,Here you are.,Here you are.,Buku Menu: Ungkapan (Ini dia.)
+buku_ungkapan7,lala,en-US,How much is it?,How much is it?,Buku Menu: Ungkapan (Berapa harganya?)
+buku_ungkapan8,lala,en-US,It's fifteen thousand rupiah.,It's fifteen thousand rupiah.,Buku Menu: Ungkapan (Harganya lima belas ribu rupiah.)
+buku_ungkapan9,lala,en-US,Here's your change.,Here's your change.,Buku Menu: Ungkapan (Ini kembaliannya.)
+buku_ungkapan10,lala,en-US,Thank you. Have a nice day!,Thank you. Have a nice day!,Buku Menu: Ungkapan (Terima kasih. Semoga harimu menyenangkan!)
+buku_angka13,lala,en-US,Thirteen.,Thirteen.,Buku Menu: Angka 13
+buku_angka14,lala,en-US,Fourteen.,Fourteen.,Buku Menu: Angka 14
+buku_angka15,lala,en-US,Fifteen.,Fifteen.,Buku Menu: Angka 15
+buku_angka16,lala,en-US,Sixteen.,Sixteen.,Buku Menu: Angka 16
+buku_angka17,lala,en-US,Seventeen.,Seventeen.,Buku Menu: Angka 17
+buku_angka18,lala,en-US,Eighteen.,Eighteen.,Buku Menu: Angka 18
+buku_angka19,lala,en-US,Nineteen.,Nineteen.,Buku Menu: Angka 19
+buku_angka30,lala,en-US,Thirty.,Thirty.,Buku Menu: Angka 30
+buku_angka40,lala,en-US,Forty.,Forty.,Buku Menu: Angka 40
+buku_angka50,lala,en-US,Fifty.,Fifty.,Buku Menu: Angka 50
+buku_angka60,lala,en-US,Sixty.,Sixty.,Buku Menu: Angka 60
+buku_angka70,lala,en-US,Seventy.,Seventy.,Buku Menu: Angka 70
+buku_angka80,lala,en-US,Eighty.,Eighty.,Buku Menu: Angka 80
+buku_angka90,lala,en-US,Ninety.,Ninety.,Buku Menu: Angka 90
+buku_angka100,lala,en-US,One hundred.,One hundred.,Buku Menu: Angka 100
+buku_angka1000,lala,en-US,One thousand.,One thousand.,Buku Menu: Angka 1000
+kontras_angka1,lala,en-US,One.,One.,"L3: kontras -teen/-ty, angka 1"
+kontras_angka2,lala,en-US,Two.,Two.,"L3: kontras -teen/-ty, angka 2"
+kontras_angka3,lala,en-US,Three.,Three.,"L3: kontras -teen/-ty, angka 3"
+kontras_angka4,lala,en-US,Four.,Four.,"L3: kontras -teen/-ty, angka 4"
+kontras_angka5,lala,en-US,Five.,Five.,"L3: kontras -teen/-ty, angka 5"
+kontras_angka6,lala,en-US,Six.,Six.,"L3: kontras -teen/-ty, angka 6"
+kontras_angka7,lala,en-US,Seven.,Seven.,"L3: kontras -teen/-ty, angka 7"
+kontras_angka8,lala,en-US,Eight.,Eight.,"L3: kontras -teen/-ty, angka 8"
+kontras_angka9,lala,en-US,Nine.,Nine.,"L3: kontras -teen/-ty, angka 9"
+kontras_angka10,lala,en-US,Ten.,Ten.,"L3: kontras -teen/-ty, angka 10"
+kontras_angka11,lala,en-US,Eleven.,Eleven.,"L3: kontras -teen/-ty, angka 11"
+kontras_angka12,lala,en-US,Twelve.,Twelve.,"L3: kontras -teen/-ty, angka 12"
+kontras_angka20,lala,en-US,Twenty.,Twenty.,"L3: kontras -teen/-ty, angka 20"
+ins_hook_ketuk,narasi,id-ID,Ketuk panekuk.,Ketuk panekuk.,Instruksi hook
+ins_hook_salah,narasi,id-ID,Bu Sinta ingin panekuk. Ketuk panekuk.,Bu Sinta ingin panekuk. Ketuk panekuk.,Instruksi hook
+ins_hook_hebat,narasi,id-ID,Hebat! Ayo kenali menu kita.,Hebat! Ayo kenali menu kita.,Instruksi hook
+ins_l1_kenalan,narasi,id-ID,Ketuk gambar untuk mendengar namanya.,Ketuk gambar untuk mendengar namanya.,Instruksi Level 1
+ins_l1_kenalanLanjut,narasi,id-ID,Sudah kenal semua? Tekan Lanjut.,Sudah kenal semua? Tekan Lanjut.,Instruksi Level 1
+ins_l1_dengar,narasi,id-ID,"Dengarkan Kak Lala, lalu ketuk yang ia sebut.","Dengarkan Kak Lala, lalu ketuk yang ia sebut.",Instruksi Level 1
+ins_l1_salah1,narasi,id-ID,"Belum tepat. Dengarkan lagi, lalu ketuk.","Belum tepat. Dengarkan lagi, lalu ketuk.",Instruksi Level 1
+ins_l1_salah2,narasi,id-ID,Jawabannya salah satu dari dua gambar yang menyala.,Jawabannya salah satu dari dua gambar yang menyala.,Instruksi Level 1
+ins_l1_salah3,narasi,id-ID,Lihat tangan. Ketuk gambar itu.,Lihat tangan. Ketuk gambar itu.,Instruksi Level 1
+ins_l1_cocok,narasi,id-ID,"Seret kata ke gambar, atau ketuk kata lalu gambar.","Seret kata ke gambar, atau ketuk kata lalu gambar.",Instruksi Level 1
+ins_l1_pilihGambar,narasi,id-ID,Sekarang ketuk gambarnya.,Sekarang ketuk gambarnya.,Instruksi Level 1
+ins_l1_cocokSalah1,narasi,id-ID,"Belum cocok. Dengarkan katanya, lalu coba lagi.","Belum cocok. Dengarkan katanya, lalu coba lagi.",Instruksi Level 1
+ins_l1_cocokSalah2,narasi,id-ID,Gambar yang cocok sedang menyala.,Gambar yang cocok sedang menyala.,Instruksi Level 1
+ins_l1_cocokSalah3,narasi,id-ID,Lihat tangan. Pindahkan kata ke gambar itu.,Lihat tangan. Pindahkan kata ke gambar itu.,Instruksi Level 1
+ins_l1_selesai,narasi,id-ID,Kamu sudah kenal semua menu Kafe Cilik!,Kamu sudah kenal semua menu Kafe Cilik!,Instruksi Level 1
+ins_toko_kartuSalah,narasi,id-ID,Belum tepat. Pilih kalimat yang cocok untuk saat ini.,Belum tepat. Pilih kalimat yang cocok untuk saat ini.,Instruksi TOKO
+ins_toko_judulMenu,narasi,id-ID,MENU,MENU,Instruksi TOKO
+ins_toko_belumTotal,narasi,id-ID,Rp ?,Rp ?,Instruksi TOKO
+ins_toko_selesai,narasi,id-ID,Hebat! Semua pelanggan sudah terlayani.,Hebat! Semua pelanggan sudah terlayani.,Instruksi TOKO
+ins_l2_mulai,narasi,id-ID,Pelanggan datang. Layani mereka dengan tepat!,Pelanggan datang. Layani mereka dengan tepat!,Instruksi L2
+ins_l2_sapa,narasi,id-ID,Pelanggan datang. Pilih kalimat untuk menyapanya.,Pelanggan datang. Pilih kalimat untuk menyapanya.,Instruksi L2
+ins_l2_salahSapaKembali,narasi,id-ID,Itu untuk memberi kembalian. Pelanggan baru datang.,Itu untuk memberi kembalian. Pelanggan baru datang.,Instruksi L2
+ins_l2_salahSapaPamit,narasi,id-ID,Itu untuk berpamitan. Pelanggan baru datang.,Itu untuk berpamitan. Pelanggan baru datang.,Instruksi L2
+ins_l2_dengar,narasi,id-ID,Dengarkan pesanannya baik-baik.,Dengarkan pesanannya baik-baik.,Instruksi L2
+ins_l2_tanyaJumlah,narasi,id-ID,Pelanggan ingin beberapa. Tanyakan jumlahnya.,Pelanggan ingin beberapa. Tanyakan jumlahnya.,Instruksi L2
+ins_l2_howMany,narasi,id-ID,How much untuk harga. How many untuk jumlah.,How much untuk harga. How many untuk jumlah.,Instruksi L2
+ins_l2_salahBelumSaji,narasi,id-ID,Pesanannya belum siap. Tanyakan dulu jumlahnya.,Pesanannya belum siap. Tanyakan dulu jumlahnya.,Instruksi L2
+ins_l2_lagi,narasi,id-ID,Tanyakan apakah ada pesanan lain.,Tanyakan apakah ada pesanan lain.,Instruksi L2
+ins_l2_salahBelumHarga,narasi,id-ID,Belum waktunya bertanya harga. Tanyakan pesanan lain.,Belum waktunya bertanya harga. Tanyakan pesanan lain.,Instruksi L2
+ins_l2_ulang,narasi,id-ID,Ulangi pesanan pelanggan dengan kalimat yang tepat.,Ulangi pesanan pelanggan dengan kalimat yang tepat.,Instruksi L2
+ins_l2_aan,narasi,id-ID,Pakai an sebelum bunyi vokal: {frasa}.,Pakai an sebelum bunyi vokal: {frasa}.,Instruksi L2 (templat)
+ins_l2_aKonsonan,narasi,id-ID,Pakai a sebelum bunyi konsonan: {frasa}.,Pakai a sebelum bunyi konsonan: {frasa}.,Instruksi L2 (templat)
+ins_l2_jamak,narasi,id-ID,Perhatikan wadah dan jumlahnya: {frasa}.,Perhatikan wadah dan jumlahnya: {frasa}.,Instruksi L2 (templat)
+ins_l2_jamakS,narasi,id-ID,"Lebih dari satu, tambah -s: {frasa}.","Lebih dari satu, tambah -s: {frasa}.",Instruksi L2 (templat)
+ins_l2_nampan,narasi,id-ID,"Ambil menu pesanan dari etalase, lalu tekan Sajikan.","Ambil menu pesanan dari etalase, lalu tekan Sajikan.",Instruksi L2
+ins_l2_saji,narasi,id-ID,Pesanan lengkap! Pilih kalimat untuk menyajikan.,Pesanan lengkap! Pilih kalimat untuk menyajikan.,Instruksi L2
+ins_l2_salahSajiKembali,narasi,id-ID,Itu untuk kembalian. Sekarang kamu menyajikan.,Itu untuk kembalian. Sekarang kamu menyajikan.,Instruksi L2
+ins_l2_salahSajiHarga,narasi,id-ID,Itu untuk bertanya harga. Kamu sedang menyajikan.,Itu untuk bertanya harga. Kamu sedang menyajikan.,Instruksi L2
+ins_l2_lebih,narasi,id-ID,Ada menu yang tidak dipesan. Ketuk menu itu di nampan.,Ada menu yang tidak dipesan. Ketuk menu itu di nampan.,Instruksi L2
+ins_l2_kebanyakan,narasi,id-ID,Terlalu banyak. Pesanan: {frasa}.,Terlalu banyak. Pesanan: {frasa}.,Instruksi L2 (templat)
+ins_l2_kurang1,narasi,id-ID,Belum lengkap. Dengarkan pesanannya lagi.,Belum lengkap. Dengarkan pesanannya lagi.,Instruksi L2
+ins_l2_kurang2,narasi,id-ID,Kata yang menyala belum ada di nampan.,Kata yang menyala belum ada di nampan.,Instruksi L2
+ins_l2_kurang3,narasi,id-ID,Lihat tangan. Ambil menu itu dari etalase.,Lihat tangan. Ambil menu itu dari etalase.,Instruksi L2
+ins_l3_harga,narasi,id-ID,"Dengarkan harganya, lalu pilih label yang tepat.","Dengarkan harganya, lalu pilih label yang tepat.",Instruksi L3
+ins_l3_hargaLagi,narasi,id-ID,Dengarkan harga berikutnya.,Dengarkan harga berikutnya.,Instruksi L3
+ins_l3_hargaSalah1,narasi,id-ID,"Dengarkan bedanya, lalu pilih lagi.","Dengarkan bedanya, lalu pilih lagi.",Instruksi L3
+ins_l3_hargaSalah2,narasi,id-ID,Dengarkan bedanya: -teen atau -ty. Lihat tangan.,Dengarkan bedanya: -teen atau -ty. Lihat tangan.,Instruksi L3
+ins_l3_hargaLain1,narasi,id-ID,Belum tepat. Dengarkan lagi harganya.,Belum tepat. Dengarkan lagi harganya.,Instruksi L3
+ins_l3_hargaLain2,narasi,id-ID,"Dengarkan pelan-pelan, lalu lihat tangan.","Dengarkan pelan-pelan, lalu lihat tangan.",Instruksi L3
+ins_l3_siapPelanggan,narasi,id-ID,Harga sudah lengkap. Pelanggan datang!,Harga sudah lengkap. Pelanggan datang!,Instruksi L3
+ins_l3_total,narasi,id-ID,"Lihat papan menu, lalu pilih totalnya.","Lihat papan menu, lalu pilih totalnya.",Instruksi L3
+ins_l3_angka,narasi,id-ID,"Ketik totalnya, lalu tekan OK.","Ketik totalnya, lalu tekan OK.",Instruksi L3
+ins_l3_lupaKali,narasi,id-ID,Ada menu yang dipesan lebih dari satu. Kalikan jumlahnya.,Ada menu yang dipesan lebih dari satu. Kalikan jumlahnya.,Instruksi L3
+ins_l3_lupaItem,narasi,id-ID,Ada menu yang belum dihitung. Jumlahkan semuanya.,Ada menu yang belum dihitung. Jumlahkan semuanya.,Instruksi L3
+ins_l3_teenTyTotal,narasi,id-ID,"Hati-hati, angkanya tertukar: -teen atau -ty?","Hati-hati, angkanya tertukar: -teen atau -ty?",Instruksi L3
+ins_l3_salahTotal,narasi,id-ID,Belum tepat. Hitung lagi dengan papan menu.,Belum tepat. Hitung lagi dengan papan menu.,Instruksi L3
+ins_l3_rumus,narasi,id-ID,Hitung: {rumus}.,Hitung: {rumus}.,Instruksi L3 (templat)
+ins_l3_rumusHasil,narasi,id-ID,{rumus} = {hasil}.,{rumus} = {hasil}.,Instruksi L3 (templat)
+ins_l3_kartu,narasi,id-ID,Pilih kalimat untuk menyebut totalnya.,Pilih kalimat untuk menyebut totalnya.,Instruksi L3
+ins_l3_kartuTeenTy,narasi,id-ID,Angkanya tertukar. Dengarkan akhir kata: -teen atau -ty.,Angkanya tertukar. Dengarkan akhir kata: -teen atau -ty.,Instruksi L3
+ins_l3_kartuSalah,narasi,id-ID,Itu bukan totalnya. Pilih kalimat dengan angka yang tepat.,Itu bukan totalnya. Pilih kalimat dengan angka yang tepat.,Instruksi L3
+ins_l3_layarKosong,narasi,id-ID,__.___,__.___,Instruksi L3
+ins_l4_awal,narasi,id-ID,Pelanggan membayar. Beri kembalian yang tepat!,Pelanggan membayar. Beri kembalian yang tepat!,Instruksi L4
+ins_l4_mulai,narasi,id-ID,Hitung naik dari {total} ke {rp}. Ambil kembaliannya.,Hitung naik dari {total} ke {rp}. Ambil kembaliannya.,Instruksi L4 (templat)
+ins_l4_mulaiPas,narasi,id-ID,"Bandingkan uang dengan total, lalu tekan Beri Kembalian.","Bandingkan uang dengan total, lalu tekan Beri Kembalian.",Instruksi L4
+ins_l4_kurang,narasi,id-ID,Kembaliannya kurang {rp}. Tambah uang dari laci.,Kembaliannya kurang {rp}. Tambah uang dari laci.,Instruksi L4 (templat)
+ins_l4_kurangBelum,narasi,id-ID,Belum sampai {rp}. Hitung naik lagi.,Belum sampai {rp}. Hitung naik lagi.,Instruksi L4 (templat)
+ins_l4_lebih,narasi,id-ID,Terlalu banyak. Ketuk uang di nampan untuk mengembalikannya.,Terlalu banyak. Ketuk uang di nampan untuk mengembalikannya.,Instruksi L4
+ins_l4_pasLebih,narasi,id-ID,"Uangnya pas, jadi tidak perlu kembalian.","Uangnya pas, jadi tidak perlu kembalian.",Instruksi L4
+ins_l4_kartu,narasi,id-ID,Pilih kalimat untuk pelanggan.,Pilih kalimat untuk pelanggan.,Instruksi L4
+ins_l4_pasKartu,narasi,id-ID,"Uangnya pas, jadi tidak ada kembalian.","Uangnya pas, jadi tidak ada kembalian.",Instruksi L4
+ins_l4_kartuHarga,narasi,id-ID,Harga sudah dibayar. Pilih kalimat yang lain.,Harga sudah dibayar. Pilih kalimat yang lain.,Instruksi L4
+ins_l4_kartuLagi,narasi,id-ID,Pesanan sudah selesai. Pilih kalimat yang lain.,Pesanan sudah selesai. Pilih kalimat yang lain.,Instruksi L4
+ins_l5_mulai,narasi,id-ID,Jam sibuk! Layani antrean sebelum teh di cangkir dingin.,Jam sibuk! Layani antrean sebelum teh di cangkir dingin.,Instruksi L5
+ins_l5_mulaiSantai,narasi,id-ID,Jam sibuk! Layani antrean pelanggan satu per satu.,Jam sibuk! Layani antrean pelanggan satu per satu.,Instruksi L5
+ins_l5_total,narasi,id-ID,"Jumlahkan harga di struk, lalu pilih totalnya.","Jumlahkan harga di struk, lalu pilih totalnya.",Instruksi L5
+ins_l5_totalSalah,narasi,id-ID,Belum tepat. Jumlahkan semua harga di struk.,Belum tepat. Jumlahkan semua harga di struk.,Instruksi L5
+ins_l5_sabarHabis,narasi,id-ID,"Tehnya dingin, bintang ke-3 lepas. Tidak apa-apa, lanjutkan!","Tehnya dingin, bintang ke-3 lepas. Tidak apa-apa, lanjutkan!",Instruksi L5
+ins_l1_puji1,narasi,id-ID,Tepat!,Tepat!,"Instruksi Level 1: jawaban benar (tampil, dibacakan lewat tombol dengar)"
+ins_l1_puji2,narasi,id-ID,Hebat!,Hebat!,"Instruksi Level 1: jawaban benar (tampil, dibacakan lewat tombol dengar)"
+ins_l1_puji3,narasi,id-ID,Bagus sekali!,Bagus sekali!,"Instruksi Level 1: jawaban benar (tampil, dibacakan lewat tombol dengar)"
+ins_l1_puji4,narasi,id-ID,Kamu hebat!,Kamu hebat!,"Instruksi Level 1: jawaban benar (tampil, dibacakan lewat tombol dengar)"
