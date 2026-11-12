@@ -121,6 +121,8 @@ var Seni = (function (root) {
         garis('M10 18Q16 17 20 20M10 25Q16 24 20 27M28 20Q32 17 38 18', W.tinta, 3) +
         bentuk('M32 9V22L35.5 19L39 22V8Z', W.jambu, { lebar: 3 });
     },
+    /* panah kanan untuk menggeser kartu (dibalik dengan CSS untuk kiri) */
+    panah: function () { return cel('M7 18H23V8L42 24L23 40V30H7Z', W.mangga, { geser: [-2, -2] }); },
     jeda: function () { return bentuk(kotak(12, 10, 9, 28, 3), W.tinta) + bentuk(kotak(27, 10, 9, 28, 3), W.tinta); },
     koin: function () {
       return cel(elips(24, 24, 18), W.mangga, { geser: [-3, -3] }) + bentuk(elips(24, 24, 10), 'none', { garis: gelap(W.mangga, 0.3), lebar: 3 });

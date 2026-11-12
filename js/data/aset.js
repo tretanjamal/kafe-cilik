@@ -42,7 +42,8 @@ window.ASET = {
     5
    ]
   },
-  "pengembang": "assets/img/pengembang.webp"
+  "pengembang": "assets/img/pengembang.webp",
+  "pengembang2": "assets/img/pengembang-2.webp"
  },
  "audio": {
   "bgm_kafe": {

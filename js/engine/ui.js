@@ -185,6 +185,7 @@
       function tombol(label, cls, id, fn) { var b = Input.button(label, cls + ' alir lebar', fn, { id: id }); o.body.appendChild(b); return b; }
       var lanjut = tombol(T.lanjut, 'utama', 'jeda-lanjut', function () { o.close(); });
       tombol(T.ulangi, 'kedua', 'jeda-ulangi', function () { Voice.buangTertahan(); o.close(); if (opsi.ulangi) opsi.ulangi(); });
+      tombol(T.pilihLevel, 'ketiga', 'jeda-pilih-level', function () { Voice.buangTertahan(); o.close(); Scenes.go('pilihLevel'); });
       tombol(T.pengaturan, 'ketiga', 'jeda-pengaturan', function () { UI.pengaturan(); });
       tombol(T.beranda, 'ketiga', 'jeda-beranda', function () { Voice.buangTertahan(); o.close(); Scenes.go('judul'); });
       o.onClose = function () { Tween.paused = false; Voice.lanjutTertahan(); };
@@ -199,20 +200,32 @@
       function baris(a) { return '<div class="baris-info">' + a.map(function (r) { return '<div><b>' + esc(r[0]) + '</b><span>' + esc(r[1]) + '</span></div>'; }).join('') + '</div>'; }
       function pustaka(r) { return '<p class="pustaka">' + esc(r[0]) + ' <i>' + esc(r[1]) + '</i> ' + esc(r[2]) + '</p>'; }
       if (jenis === 'info') HAL = {
-        tujuan: function () { return '<p class="sorot-info">' + esc(D.pengantar) + '</p><p><b>' + esc(D.tujuanJudul) + '</b></p>' + daftar(D.tujuan) + '<p class="kecil-info">' + esc(D.meta) + '</p>'; },
+        tujuan: function () { return '<p class="sorot-info">' + esc(D.pengantar) + '</p><p><b>' + esc(D.tujuanJudul) + '</b></p><p class="tujuan-info">' + esc(D.tujuan) + '</p><p class="kecil-info">' + esc(D.meta) + '</p>'; },
         cara: function () { return daftar(D.cara, 'ol') + '<p class="kecil-info">' + esc(D.caraCatatan) + '</p>'; },
         misi: function () { return '<p><b>' + esc(D.misiJudul) + '</b></p>' + baris(D.misi) + '<p class="sorot-info">' + esc(D.misiCatatan) + '</p>'; }
       };
       if (jenis === 'referensi') HAL = {
-        sumber: function () { return '<p><b>' + esc(D.sumberPengantar) + '</b></p>' + pustaka(D.sumber) + '<p>' + esc(D.topik) + '</p><p class="kecil-info">' + esc(D.huruf) + '</p>'; },
+        sumber: function () { return '<p><b>' + esc(D.sumberPengantar) + '</b></p>' + D.sumber.map(pustaka).join('') + '<p>' + esc(D.topik) + '</p><p class="kecil-info">' + esc(D.huruf) + '</p>'; },
         ka: function () { return '<p>' + esc(D.kaPengantar) + '</p>' + baris(D.ka) + '<p><b>' + esc(D.kaRujukanJudul) + '</b></p>' + pustaka(D.kaRujukan); }
       };
       if (!HAL) {
-        var foto = Seni.gambar('pengembang');
-        o.body.insertAdjacentHTML('beforeend', '<div class="kartu-pengembang" data-cek="info pengembang">' +
-          '<div class="foto-pengembang">' + (foto ? '<img src="' + foto + '" alt="' + esc(D.fotoAlt) + '">' : Seni.potret('kasir', 180)) + '</div>' +
-          '<div class="data-pengembang"><b class="nama-pengembang">' + esc(D.nama) + '</b><span>' + esc(D.sekolah) + '</span><span>' + esc(D.email) + '</span><span>' + esc(D.tahun) + '</span></div>' +
-          '<div class="prestasi"><b>' + esc(D.daftarJudul) + '</b>' + daftar(D.daftar) + '</div></div>');
+        /* beberapa pengembang, digeser dengan tombol panah kiri dan kanan (pola Describing Quantity) */
+        var P = D.profil, ke = 0, wadah = U.h('div', 'geser-pengembang'), kartu = U.h('div', 'kartu-pengembang'), urutan = U.h('p', 'urutan-pengembang');
+        kartu.setAttribute('data-cek', 'info pengembang');
+        var tampil = function (i) {
+          ke = (i + P.length) % P.length;
+          var p = P[ke], foto = Seni.gambar(p.foto);
+          kartu.innerHTML = '<div class="foto-pengembang">' + (foto ? '<img src="' + foto + '" alt="' + esc(p.fotoAlt) + '">' : Seni.potret('kasir', 180)) + '</div>' +
+            '<div class="data-pengembang"><b class="nama-pengembang">' + esc(p.nama) + '</b>' + p.baris.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '<span>' + esc(D.tahun) + '</span></div>' +
+            (p.daftar ? '<div class="prestasi"><b>' + esc(p.daftarJudul) + '</b>' + daftar(p.daftar) + '</div>' : '');
+          kartu.classList.toggle('tanpa-daftar', !p.daftar);
+          urutan.textContent = U.fmt(D.urutan, { n: ke + 1, t: P.length });
+        };
+        var kiri = UI.tombolIkon('panah', D.sebelumnya, function () { tampil(ke - 1); }, { id: 'pengembang-kiri', cls: 'panah-kiri alir' });
+        var kanan = UI.tombolIkon('panah', D.berikutnya, function () { tampil(ke + 1); }, { id: 'pengembang-kanan', cls: 'alir' });
+        wadah.appendChild(kiri); wadah.appendChild(kartu); wadah.appendChild(kanan);
+        o.body.appendChild(wadah); o.body.appendChild(urutan);
+        tampil(0);
         UI.tombolTutup(o);
         return o;
       }

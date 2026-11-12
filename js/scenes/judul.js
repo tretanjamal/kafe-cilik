@@ -1,5 +1,6 @@
 /* Layar judul: logo, tagline, MULAI, Informasi, Referensi, Pengembang; fasad kafe hidup (GDD bagian 8).
-   MULAI pertama kali memutar hook 10 detik; pemain lama langsung ke Pilih Level. */
+   MULAI selalu membuka isian nama dulu (permintaan kreator, 13 November 2026), lalu Pilih Level.
+   Hook 10 detik diputar saat Level 1 dipilih pertama kali (pilihLevel.js). */
 (function () {
   var lepas = null;
   Scenes.add('judul', {
@@ -11,7 +12,7 @@
       root.appendChild(seni);
       root.appendChild(U.h('h1', 'tersembunyi', UI.esc(J.lengkap)));
       var mulai = Input.button(STR.tombol.mulai, 'utama', function () {
-        Scenes.go(!Save.data.hook ? 'hook' : (Save.data.identitasDitanya ? 'pilihLevel' : 'identitas'), { lanjut: 'pilihLevel' });
+        Scenes.go('identitas', { lanjut: 'pilihLevel' });
       }, { x: 70, y: 446, w: 340, h: 100, font: 56, id: 'mulai' });
       root.appendChild(mulai);
       [['info', 40, 168], ['referensi', 220, 168], ['pengembang', 400, 184]].forEach(function (b) {

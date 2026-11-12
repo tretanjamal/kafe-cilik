@@ -39,7 +39,8 @@
         b.addEventListener('click', function () {
           if (!buka) { Aud.sfx('gembok'); UI.toast(U.fmt(STR.pilih.terkunci, { n: n - 1 })); return; }
           if (LEVEL_ADA.indexOf(n) < 0) { UI.toast(STR.pilih.belumAda); return; }
-          Scenes.go('level' + n);
+          /* permainan pertama: Level 1 diawali hook 10 detik, yang lalu berlanjut ke Level 1 */
+          Scenes.go(n === 1 && !Save.data.hook ? 'hook' : 'level' + n);
         });
         root.appendChild(b);
         if (n === 1) pertama = b;

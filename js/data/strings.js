@@ -198,7 +198,7 @@ window.STR = {
     dekor: { 1: 'Lampu kafe kini menyala!', 2: 'Kafe dapat tanaman baru!', 3: 'Kafe dapat papan menu dan bendera hias!', 4: 'Kafe dapat meja dan kursi di luar!', 5: 'Kafe Cilik siap melayani jam sibuk!' },
     santai: 'Mode Santai', sertifikat: 'Sertifikat'
   },
-  jeda: { judul: 'Jeda', lanjut: 'Lanjut', ulangi: 'Ulangi', pengaturan: 'Pengaturan', beranda: 'Beranda' },
+  jeda: { judul: 'Jeda', lanjut: 'Lanjut', ulangi: 'Ulangi', pilihLevel: 'Pilih Level', pengaturan: 'Pengaturan', beranda: 'Beranda' },
   pengaturan: {
     judul: 'Pengaturan', nyala: 'Nyala', mati: 'Mati',
     musik: 'Musik', efek: 'Efek suara', suara: 'Suara tokoh', suaraCatatan: 'Memakai suara bawaan perangkat.',
@@ -214,15 +214,8 @@ window.STR = {
       judul: 'Informasi',
       tab: { tujuan: 'Tujuan', cara: 'Cara Main', misi: 'Misi' },
       pengantar: 'Kafe Cilik butuh kasir baru! Bantu Kak Lala melayani pelanggan dalam bahasa Inggris.',
-      tujuanJudul: 'Setelah bermain, kamu bisa:',
-      tujuan: [
-        'Mengenali nama 12 makanan dan minuman dalam bahasa Inggris.',
-        'Memahami pesanan, termasuk jumlah dan wadahnya (two cups of tea).',
-        'Memahami harga yang diucapkan, misalnya fifteen dan fifty.',
-        'Memakai ungkapan berbelanja seperti How much is it? dan Here you are.',
-        'Menghitung total belanja.',
-        'Menghitung kembalian dengan cara hitung naik.'
-      ],
+      tujuanJudul: 'Tujuan pembelajaran',
+      tujuan: 'Murid mampu memahami dan menggunakan nama makanan dan minuman, jumlah, harga, serta ungkapan berbelanja dalam bahasa Inggris untuk melayani pesanan, menghitung total, dan memberi kembalian.',
       meta: 'Mata pelajaran Bahasa Inggris. Sekitar 20-25 menit untuk 5 level.',
       cara: [
         'Dengarkan pelanggan. Ketuk Dengar lagi atau Lebih pelan bila perlu.',
@@ -245,7 +238,11 @@ window.STR = {
       judul: 'Referensi',
       tab: { sumber: 'Sumber Materi', ka: 'Kecerdasan Artifisial' },
       sumberPengantar: 'Sumber materi gim ini:',
-      sumber: ['Emilia, E., Wijayanti, M.A., dkk. (2025).', 'Panduan Mata Pelajaran Bahasa Inggris.', 'Badan Standar, Kurikulum, dan Asesmen Pendidikan, Kementerian Pendidikan Dasar dan Menengah Republik Indonesia.'],
+      /* [penulis dan tahun, judul (miring), penerbit] */
+      sumber: [
+        ['Badan Standar, Kurikulum, dan Asesmen Pendidikan (2025).', 'Keputusan Kepala BSKAP Nomor 046/H/KR/2025 tentang Capaian Pembelajaran.', 'Kementerian Pendidikan Dasar dan Menengah Republik Indonesia.'],
+        ['Emilia, E., Wijayanti, M.A., dkk. (2025).', 'Panduan Mata Pelajaran Bahasa Inggris Fase B-F dan Fase F Tingkat Lanjut.', 'Badan Standar, Kurikulum, dan Asesmen Pendidikan, Kementerian Pendidikan Dasar dan Menengah Republik Indonesia.']
+      ],
       topik: 'Topik gim ini: Food, Drinks, Price, and Shopping (Bahasa Inggris).',
       huruf: 'Huruf Lilita One (Juan Montoreano) dan Andika (SIL International), lisensi SIL Open Font License.',
       kaPengantar: 'Pengembang memakai kecerdasan artifisial (KA) sebagai alat bantu.',
@@ -261,15 +258,23 @@ window.STR = {
     },
     pengembang: {
       judul: 'Pengembang',
-      fotoAlt: 'Foto Jamaluddin',
-      nama: 'Jamaluddin', sekolah: 'UPTD SMPN 2 Robatal', email: 'jamaluddin551@guru.smp.belajar.id', tahun: 'Tahun pembuatan: 2026',
-      daftarJudul: 'Prestasi dan Pengalaman',
-      daftar: [
-        'Narasumber Digitalisasi Pembelajaran Kemendikdasmen',
-        'Guru Pejuang Digital',
-        'Juara 1 Lomba Inovasi Guru SMP Kabupaten Sampang 2026',
-        'Juara 1 Guru Inspiratif SMP Kabupaten Sampang 2026',
-        'Komunitas Belajar Terbaik BLPT Kemendikdasmen 2024'
+      tahun: 'Tahun pembuatan: 2026', urutan: 'Pengembang {n} dari {t}',
+      sebelumnya: 'Pengembang sebelumnya', berikutnya: 'Pengembang berikutnya',
+      /* digeser dengan tombol panah; foto = kunci gambar di js/data/aset.js */
+      profil: [
+        {
+          nama: 'Jamaluddin', fotoAlt: 'Foto Jamaluddin', foto: 'pengembang',
+          baris: ['UPTD SMPN 2 Robatal', 'jamaluddin551@guru.smp.belajar.id'],
+          daftarJudul: 'Prestasi dan Pengalaman',
+          daftar: [
+            'Narasumber Digitalisasi Pembelajaran Kemendikdasmen',
+            'Guru Pejuang Digital',
+            'Juara 1 Lomba Inovasi Guru SMP Kabupaten Sampang 2026',
+            'Juara 1 Guru Inspiratif SMP Kabupaten Sampang 2026',
+            'Komunitas Belajar Terbaik BLPT Kemendikdasmen 2024'
+          ]
+        },
+        { nama: 'Abdul Karim, S.Pd.SD', fotoAlt: 'Foto Abdul Karim', foto: 'pengembang2', baris: ['Guru UPTD SDN Jelgung 1'] }
       ]
     }
   },

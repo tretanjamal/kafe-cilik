@@ -1,4 +1,4 @@
-/* Isian nama dan sekolah (permintaan kreator): muncul sekali sesudah hook (atau sebelum Pilih Level bila belum pernah ditanya).
+/* Isian nama dan sekolah (permintaan kreator): muncul setiap kali MULAI ditekan, sebelum Pilih Level. Isian lama sudah terisi.
    Boleh dilewati. Hanya dipakai untuk sertifikat dan hanya tersimpan di perangkat ini (Save.data.murid); "Murid baru" menghapusnya. */
 (function () {
   Scenes.add('identitas', {

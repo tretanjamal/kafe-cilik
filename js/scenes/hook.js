@@ -1,4 +1,4 @@
-/* Hook 10 detik (GDD bagian 3), hanya pada permainan pertama: bel pintu, Bu Sinta memesan panekuk, murid mengetuknya,
+/* Hook 10 detik (GDD bagian 3), hanya saat Level 1 dipilih pertama kali: bel pintu, Bu Sinta memesan panekuk, murid mengetuknya,
    panekuk melompat ke nampan, Bu Sinta senang, kas menghitung naik, lampu gantung menyala, lalu Level 1 dimulai. */
 (function () {
   var S = {};

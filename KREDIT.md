@@ -1,6 +1,6 @@
 # KREDIT: Kafe Cilik: Pesan, Bayar, dan Belanja in English
 
-Pengembang: Jamaluddin, UPTD SMPN 2 Robatal. Dibuat untuk Ruang Murid.
+Pengembang: Jamaluddin, UPTD SMPN 2 Robatal, dan Abdul Karim, S.Pd.SD, UPTD SDN Jelgung 1. Dibuat untuk Ruang Murid.
 
 ## Huruf (dibundel di `assets/fonts/`, lisensi di folder yang sama)
 - **Lilita One** karya Juan Montoreano, SIL Open Font License 1.1 (`OFL-LilitaOne.txt`). Dipakai untuk judul, tombol, dan angka besar.
@@ -15,6 +15,7 @@ Pengembang: Jamaluddin, UPTD SMPN 2 Robatal. Dibuat untuk Ruang Murid.
   - Thumbnail 840x472: key art (prompt bagian 5) dengan judul dan balon yang ditulis kode (`tools/thumbnail.html`). Thumbnail tidak ikut zip.
   - `assets/img/tangan.webp`: tangan penunjuk, dibuat kreator dengan ChatGPT (`ui_hand_pointer.png`). Dipilih dari dua gambar karena bergaya datar bergaris tebal seperti seni gim. `tangan_penunjuk.png` (3D mengilap) tidak dipakai.
 - `assets/img/pengembang.webp`: foto kreator sendiri untuk panel Pengembang, diserahkan kreator dan dipotong kepala-bahu.
+- `assets/img/pengembang-2.webp`: foto pengembang kedua (Abdul Karim) untuk panel Pengembang, diserahkan kreator (`assets/masuk/Abdul Karim.jpe`) dan dipotong kepala-bahu.
 - Gambar lain digambar dengan kode SVG di `js/engine/seni.js`, khusus untuk gim ini: tokoh, konter, laci, uang mainan, ikon, hiasan kafe, dan sertifikat (kanvas). Setiap gambar ChatGPT juga punya versi SVG cadangan, termasuk tangan penunjuk.
 - Tidak ada model 3D. Meshy tidak dipakai (keputusan kreator, 9 November 2026).
 - Uang mainan bergaya kartun dengan medali cangkir Kafe Cilik dan tulisan "UANG MAINAN", tanpa tokoh, lambang negara, logo Bank Indonesia, nomor seri, atau pola pengaman.
