@@ -260,11 +260,11 @@ window.STR = {
       judul: 'Pengembang',
       tahun: 'Tahun pembuatan: 2026', urutan: 'Pengembang {n} dari {t}',
       sebelumnya: 'Pengembang sebelumnya', berikutnya: 'Pengembang berikutnya',
-      /* digeser dengan tombol panah; foto = kunci gambar di js/data/aset.js */
+      /* digeser dengan tombol panah; foto dan ikon = kunci gambar di js/data/aset.js; baris berupa teks atau { ikon, alt, teks } */
       profil: [
         {
           nama: 'Jamaluddin', fotoAlt: 'Foto Jamaluddin', foto: 'pengembang',
-          baris: ['UPTD SMPN 2 Robatal', 'jamaluddin551@guru.smp.belajar.id', 'Instagram: @tretanjamal'],
+          baris: ['UPTD SMPN 2 Robatal', 'jamaluddin551@guru.smp.belajar.id', { ikon: 'instagram', alt: 'Instagram', teks: 'tretanjamal' }],
           daftarJudul: 'Prestasi dan Pengalaman',
           daftar: [
             'Narasumber Digitalisasi Pembelajaran Kemendikdasmen',

@@ -212,11 +212,17 @@
         /* beberapa pengembang, digeser dengan tombol panah kiri dan kanan (pola Describing Quantity) */
         var P = D.profil, ke = 0, wadah = U.h('div', 'geser-pengembang'), kartu = U.h('div', 'kartu-pengembang'), urutan = U.h('p', 'urutan-pengembang');
         kartu.setAttribute('data-cek', 'info pengembang');
+        /* baris data: teks biasa, atau ikon (mis. logo Instagram) diikuti teks */
+        var barisData = function (x) {
+          if (typeof x === 'string') return '<span>' + esc(x) + '</span>';
+          var src = Seni.gambar(x.ikon);
+          return '<span class="baris-ikon">' + (src ? '<img src="' + src + '" alt="' + esc(x.alt) + '" width="32" height="32">' : esc(x.alt) + ': ') + esc(x.teks) + '</span>';
+        };
         var tampil = function (i) {
           ke = (i + P.length) % P.length;
           var p = P[ke], foto = Seni.gambar(p.foto);
           kartu.innerHTML = '<div class="foto-pengembang">' + (foto ? '<img src="' + foto + '" alt="' + esc(p.fotoAlt) + '">' : Seni.potret('kasir', 180)) + '</div>' +
-            '<div class="data-pengembang"><b class="nama-pengembang">' + esc(p.nama) + '</b>' + p.baris.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '<span>' + esc(D.tahun) + '</span></div>' +
+            '<div class="data-pengembang"><b class="nama-pengembang">' + esc(p.nama) + '</b>' + p.baris.map(barisData).join('') + '<span>' + esc(D.tahun) + '</span></div>' +
             (p.daftar ? '<div class="prestasi"><b>' + esc(p.daftarJudul) + '</b>' + daftar(p.daftar) + '</div>' : '');
           kartu.classList.toggle('tanpa-daftar', !p.daftar);
           urutan.textContent = U.fmt(D.urutan, { n: ke + 1, t: P.length });

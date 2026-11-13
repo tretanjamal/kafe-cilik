@@ -131,6 +131,8 @@ button { font-family: inherit; color: inherit; }
 .geser-pengembang { display: flex; align-items: center; gap: 18px; }
 .geser-pengembang .kartu-pengembang { width: 860px; min-height: 450px; align-content: center; }
 .tombol.ikon.panah-kiri svg { transform: scaleX(-1); }
+.baris-ikon { display: inline-flex; align-items: center; gap: 10px; }
+.baris-ikon img { width: 32px; height: 32px; flex: none; }
 .urutan-pengembang { margin: 0; font: 700 20px/1 var(--font-isi); color: var(--kayu-gelap); }
 .tujuan-info { padding: 12px 18px; border-radius: 16px; background: var(--persik-terang); border: 3px solid var(--krem-gelap); }
 /* isian nama dan sekolah */

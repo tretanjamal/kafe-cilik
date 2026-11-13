@@ -15,6 +15,7 @@ Pengembang: Jamaluddin, UPTD SMPN 2 Robatal, dan Abdul Karim, S.Pd.SD, UPTD SDN 
   - Thumbnail 840x472: key art (prompt bagian 5) dengan judul dan balon yang ditulis kode (`tools/thumbnail.html`). Thumbnail tidak ikut zip.
   - `assets/img/tangan.webp`: tangan penunjuk, dibuat kreator dengan ChatGPT (`ui_hand_pointer.png`). Dipilih dari dua gambar karena bergaya datar bergaris tebal seperti seni gim. `tangan_penunjuk.png` (3D mengilap) tidak dipakai.
 - `assets/img/pengembang.webp`: foto kreator sendiri untuk panel Pengembang, diserahkan kreator dan dipotong kepala-bahu.
+- `assets/img/instagram.webp`: logo Instagram (merek milik Meta) di kartu pengembang, diserahkan kreator (`assets/masuk/Instagram_icon.png`) dan diperkecil ke 64x64. Hanya penanda akun, tanpa tautan keluar.
 - `assets/img/pengembang-2.webp`: foto pengembang kedua (Abdul Karim) untuk panel Pengembang, diserahkan kreator (`assets/masuk/Abdul Karim.jpe`) dan dipotong kepala-bahu.
 - Gambar lain digambar dengan kode SVG di `js/engine/seni.js`, khusus untuk gim ini: tokoh, konter, laci, uang mainan, ikon, hiasan kafe, dan sertifikat (kanvas). Setiap gambar ChatGPT juga punya versi SVG cadangan, termasuk tangan penunjuk.
 - Tidak ada model 3D. Meshy tidak dipakai (keputusan kreator, 9 November 2026).

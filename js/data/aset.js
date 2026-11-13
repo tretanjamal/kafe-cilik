@@ -43,7 +43,8 @@ window.ASET = {
    ]
   },
   "pengembang": "assets/img/pengembang.webp",
-  "pengembang2": "assets/img/pengembang-2.webp"
+  "pengembang2": "assets/img/pengembang-2.webp",
+  "instagram": "assets/img/instagram.webp"
  },
  "audio": {
   "bgm_kafe": {
